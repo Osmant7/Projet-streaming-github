@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+/**Header*/
+header{
+    background-image: url("/img/pexels-neal-5822912.jpg");
+    background-size: 100% auto;
+    display: flex;
+    height: 70vh;
+    width: 100%;
+    margin: auto;
+}
+/**Header première recommendation*/
+.sectionHeaderTitre{
+    flex-grow: 5;
+    height: 40%;
+    margin: auto;
+    width: 40%;
+}
+.sectionHeaderTitre > h1{
+    text-align: left;
+    height: 33%;
+    width: 70%;
+    margin: auto;
+    font-size: 40px;
+}
+.sectionHeaderTitre > h3{
+    text-align: center;
+    font-size: 25px;
+    text-align: left;
+    width: 70%;
+    margin: auto;
+}
+ .sectionHeaderTitre > p{
+    text-align: center;
+    font-size: 20px;
+    text-align: left;
+    width: 70%;
+    margin: auto;
+}
+.sectionHeaderTitre > button{
+    margin: auto;
+    display: block;
+    margin-right: 81%;
+    margin-top: 5px;
+}
+/**Herder Conneter*/
+.sectionHeaderConnexion{
+    flex-grow: 1;
+    display: flex;
+    height: 80%;
+    width: 10%;
+    margin: auto;
+}
+.sectionHeaderConnexion > p{
+    font-size: 25px;
+}
+.sectionHeaderConnexion > p:hover{
+    cursor: pointer;
+}
+.sectionHeaderConnexion > img{
+    height: 35px;
+    margin-left: 20px;
+    background-color: #55b7c2;
+    border-radius: 50%;
+}
+.sectionHeaderConnexion > img:hover{
+    cursor: pointer;
+}
+/**Main*/
+
+/**Main Suggestion*/
+.suggestion{
+    height: 70vh;
+}
+.suggestion > h3{
+    width: 80%;
+    height: 15%;
+    margin: auto;
+    margin-top: 20px;
+}
+.mainSuggestion{
+    display: flex;
+    justify-content: space-evenly;
+}
+.mainSuggestion section > div{
+    height: 60vh;
+    width: 70%;
+    margin: auto;
+}
+.contenu{
+    height: 60%;
+    width: 90%;
+    margin: auto;
+}
+#firstImg{
+    background-image: url("/img/pexels-monstera-5200823.jpg");
+    background-size: 100% auto;
+}
+#secondImg{
+    background-image: url("/img/pexels-miggy-rivera-6141908.jpg");
+    background-size: 100% auto;
+}
+#thirdImg{
+    background-image: url("/img/pexels-olya-prutskova-8264629.jpg");
+    background-size: 100% auto;
+}
+/**Maint téléchargement*/
+.telechargement > h3{
+    width: 80%;
+    height: 15%;
+    margin: auto;
+    margin-top: 20px;
+}
+.telechargement{
+    height: 70vh;
+}
+.articleTelechargement{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.articleTelechargement section{
+    height: 100%;
+    width: 80%;
+}
+.articleTelechargement section div{
+    height: 65%;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.articleTelechargement section div button{
+    margin: auto;
+    width: 35%;
+    height: 50px;
+}
+#img4{
+    background-image: url("/img/pexels-anna-tarazevich-7650805.jpg");
+    background-size: 100% auto;
+}
+#img5{
+    background-image: url("/img/pexels-richard-verbeek-572861.jpg");
+    background-size: 100% auto;
+}
+#img6{
+    background-image: url("/img/pexels-natsuminh-夏明-6566511.jpg");
+    background-size: 100% auto;
+}
+#img7{
+    background-image: url("/img/pexels-pixabay-69932.jpg");
+    background-size: 100% auto;
+}
+/**footer*/
+footer{
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer section{
+    height: 30%;
+    margin: auto;
+}
+footer section h3{
+    height: 25px;
+}
