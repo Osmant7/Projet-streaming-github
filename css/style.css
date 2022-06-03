@@ -7,7 +7,7 @@ main{
     justify-content: center;
     align-items: center;
     height: 600px;
-    background-image: url('./assets/pexels-junior-teixeira-2047905.jpg');
+    background-image: url('../assets/pexels-junior-teixeira-2047905.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0%;
@@ -69,7 +69,7 @@ section{
     height: 650px;
     width: 1000px;
     border-radius: 30px;
-    background-image: url('./assets/pexels-marta-branco-1194713.jpg');
+    background-image: url('../assets/pexels-marta-branco-1194713.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -111,7 +111,7 @@ section{
 
 #annonce{
     height: 500px;
-    background-image: url('./assets/pexels-riccardo-bertolo-4245826.jpg');
+    background-image: url('../assets/pexels-riccardo-bertolo-4245826.jpg');
     background-position: 0%;
     background-size: cover;
 }
