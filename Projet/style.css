@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-image: url('./assets/pexels-junior-teixeira-2047905.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+}
+
+#main-first-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title-page{
+    color: white;
+    font-size: 70px;
+}
+#search-bar{
+    height: 50px;
+    width: 500px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+#search-button{
+    background-color: #608ebf;
+    height: 55px;
+    position: relative;
+    bottom: -2px;
+    cursor: pointer;
+    left: -50px;
+    font-size: 20px;
+    width: 110px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+#main-third-div{
+    width: 500px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#main-third-div a{
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+
+/* END OF FIRST BLOCK */
+
+
+section{
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#second-block{
+    height: 650px;
+    width: 1000px;
+    border-radius: 30px;
+    background-image: url('./assets/pexels-marta-branco-1194713.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#second-block-first-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: -80px;
+}
+
+#second-block-title{
+    color: white;
+    font-size: 80px;
+}
+
+.second-block-images{
+    height: 250px;
+    width: 240px;
+    border-radius: 20px;
+    position: relative;
+    bottom: -160px;
+}
+
+#second-block-second-div{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*  END OF SECOND PARTS */
+
+
+#annonce{
+    height: 500px;
+    background-image: url('./assets/pexels-riccardo-bertolo-4245826.jpg');
+    background-position: 0%;
+    background-size: cover;
+}
+
+#annonce-first-div{
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+
+}
+
+#annonce-first-div h1{
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+#annonce-first-div p{
+    color: white;
+    font-size: 35px;
+}
+
+#annonce-first-div a{
+    height: 60px;
+    background-color: #608ebf;
+    width: 155px;
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    justify-content: center;
+    border-radius: 18px;
+}
+
+/* END OF THIRD PARTS */
+
+footer{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer div{
+
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
